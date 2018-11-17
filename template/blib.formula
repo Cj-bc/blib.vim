@@ -1,0 +1,14 @@
+class:Library() {
+  @required public string url = ""
+  @required public string name = ""
+  @required public array  scripts push "" ""
+            public string version = ""
+            public string description = ""
+            public array  dependencies push "" ""
+
+  Library.test() {
+    make test
+  }
+}
+
+Type::InitializeStatic Library
