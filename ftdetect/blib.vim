@@ -1,1 +1,1 @@
-au BufNewFile,BufRead *.blib set filetype=blibFormula
+au BufNewFile,BufRead *.blib.formula set filetype=blibFormula syntax=bashinfinity
